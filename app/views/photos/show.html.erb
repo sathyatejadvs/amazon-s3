@@ -1,0 +1,8 @@
+<p id="notice"><%= notice %></p>
+<td><%= @photo.name %></td>
+<td><%=  image_tag @photo.image.url %></td>
+<div style="text-align:center">
+	
+	<%= link_to 'Edit', edit_photo_path(@photo) %> |
+	<%= link_to 'Back', photos_path %>
+</div>
