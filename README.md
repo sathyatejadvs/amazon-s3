@@ -7,12 +7,14 @@
 
 	* sass-rails
 
-	>> To secure S3 credentials in application used 
-
-		* figaro
+	* figaro( To secure S3 credentials in application)
 
 	* carrierwave
 
 	* mini_magick
 
 	* fog
+
+>## Database
+	
+	*sqlite3
