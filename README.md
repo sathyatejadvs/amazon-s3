@@ -1,24 +1,18 @@
-# README
+# Uploading images to AWS S3.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Versions
+	> Ruby 2.6.3, Rails 5.2.3
 
-Things you may want to cover:
+>Added the following gems:
 
-* Ruby version
+	* sass-rails
 
-* System dependencies
+	>> To secure S3 credentials in application used 
 
-* Configuration
+		* figaro
 
-* Database creation
+	* carrierwave
 
-* Database initialization
+	* mini_magick
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+	* fog
